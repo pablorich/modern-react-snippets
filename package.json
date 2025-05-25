@@ -2,7 +2,7 @@
   "name": "react-snippets-extension",
   "displayName": "React Snippets Extension",
   "description": "A collection of React code snippets for TypeScript, TSX, JavaScript, and JSX files.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "pablorivera",
   "engines": {
     "vscode": "^1.50.0"
