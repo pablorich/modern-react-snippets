@@ -22,8 +22,7 @@
       "  }, []);"
     ],
     "description": "Create useEffect"
-  }
-  ,
+  },
   "react-use-callback": {
     "prefix": "usecb",
     "body": [
@@ -32,16 +31,14 @@
       "}, []);"
     ],
     "description": "Create useCallback"
-  }
-  ,
+  },
   "react-use-state": {
     "prefix": "usest",
     "body": [
       "const [${1:state}, set${2:State}] = useState(${3:initialValue});"
     ],
     "description": "Create a useState hook"
-  }
-  ,
+  },
   "react-custom-hook": {
     "prefix": "rhook",
     "body": [

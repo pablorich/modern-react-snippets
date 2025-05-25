@@ -1,17 +1,17 @@
 # React Snippets Extension
 
-This extension provides a collection of useful React code snippets for developers working with TypeScript, TSX, JavaScript, and JSX files in their projects.
+This extension provides a collection of useful React code snippets for developers working with TypeScript or JavaScript react files in their projects.
 
 ## Features
 
-- **React Snippets**: Quick access to common modern React patterns and components in ts, tsx, js and jsx files.
+- **React Snippets**: Quick access to common modern React patterns and components.
 - Not giving options for old styles of writing react such as class components
 
 ## Installation
 
 1. Open VS code
 2. Press ctrl + p to open command palette
-3. Paste this ```ext install PabloRivera.react-snippets-extension```
+3. Paste this `ext install PabloRivera.react-snippets-extension`
 
 ### Available Commands
 

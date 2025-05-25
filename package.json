@@ -20,7 +20,7 @@
     "snippets": [
       {
         "language": "typescript",
-        "path": "./snippets/react-ts.json"
+        "path": "./snippets/react-tsx.json"
       },
       {
         "language": "typescriptreact",
@@ -28,7 +28,7 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/react-js.json"
+        "path": "./snippets/react-jsx.json"
       },
       {
         "language": "javascriptreact",
