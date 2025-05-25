@@ -63,5 +63,24 @@
       "}, [${4:dependencies}]);"
     ],
     "description": "Create useMemo"
+  },
+  "react-use-reducer": {
+    "prefix": "usered",
+    "body": [
+      "const ${1:reducer} = (state, action) => {",
+      "  switch (action.type) {",
+      "    case '${2:ACTION_TYPE}':",
+      "      return {",
+      "        ...state,",
+      "        ${3:// update state here}",
+      "      };",
+      "    default:",
+      "      return state;",
+      "  }",
+      "};",
+      "",
+      "const [${4:state}, ${5:dispatch}] = useReducer(${1:reducer}, ${6:initialState});"
+    ],
+    "description": "Create a useReducer hook with reducer function"
   }
 }
