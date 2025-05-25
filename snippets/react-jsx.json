@@ -1,0 +1,57 @@
+{
+  "react-functional-component": {
+    "prefix": "rfc",
+    "body": [
+      "const ${1:ComponentName} = () => {",
+      "  return (",
+      "    <div>",
+      "      ${2:/* Your code here */}",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:ComponentName};"
+    ],
+    "description": "Create a functional component"
+  },
+  "react-use-effect": {
+    "prefix": "useef",
+    "body": [
+      "  useEffect(() => {",
+      "    ${2:// Your effect code here}",
+      "  }, []);"
+    ],
+    "description": "Create useEffect"
+  }
+  ,
+  "react-use-callback": {
+    "prefix": "usecb",
+    "body": [
+      "const ${1:callback} = useCallback(() => {",
+      "  ${2:// Your callback code here}",
+      "}, []);"
+    ],
+    "description": "Create useCallback"
+  }
+  ,
+  "react-use-state": {
+    "prefix": "usest",
+    "body": [
+      "const [${1:state}, set${2:State}] = useState(${3:initialValue});"
+    ],
+    "description": "Create a useState hook"
+  }
+  ,
+  "react-custom-hook": {
+    "prefix": "rhook",
+    "body": [
+      "const use${1:CustomHook} = (${2:params}) => {",
+      "  ${3:// Hook logic here}",
+      "  return ${4:null};",
+      "};",
+      "",
+      "export default use${1:CustomHook};"
+    ],
+    "description": "Create a custom React hook"
+  }
+}

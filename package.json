@@ -1,0 +1,63 @@
+{
+  "name": "react-snippets-extension",
+  "displayName": "React Snippets Extension",
+  "description": "A collection of React code snippets for TypeScript, TSX, JavaScript, and JSX files.",
+  "version": "1.0.0",
+  "publisher": "pablorich",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pablorich/react-snippets-extension.git"
+  },
+  "extensionEntrypoint": "./dist/extension.js",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/react-ts.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react-tsx.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/react-js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react-jsx.json"
+      }
+    ]
+  },
+  "files": [
+    "dist/",
+    "snippets/",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./tsconfig.json",
+    "watch": "tsc -watch -p ./tsconfig.json",
+    "postinstall": "node ./out/extension.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "vscode": "^1.1.37",
+    "ts-loader": "^8.0.0"
+  },
+  "activationEvents": [
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact"
+  ],
+  "main": "./dist/extension.js"
+}
