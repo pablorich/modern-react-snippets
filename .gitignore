@@ -34,3 +34,6 @@ coverage/
 # Misc
 *.log
 *.tgz
+
+# extension
+*.vsix
