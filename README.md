@@ -4,26 +4,27 @@ This extension provides a collection of useful React code snippets for developer
 
 ## Features
 
-- **TypeScript Snippets**: Quick access to common React patterns and components in TypeScript files.
-- **TSX Snippets**: Snippets tailored for React components written in TSX.
-- **JavaScript Snippets**: Useful snippets for standard JavaScript React files.
-- **JSX Snippets**: Snippets designed for React components written in JSX.
+- **React Snippets**: Quick access to common modern React patterns and components in ts, tsx, js and jsx files.
+- Not giving options for old styles of writing react such as class components
 
 ## Installation
 
-1. Clone the repository or download the ZIP file.
-2. Open the project in your code editor.
-3. Run `npm install` to install the necessary dependencies.
-4. Open the command palette (Ctrl+Shift+P) and type `Reload Window` to activate the extension.
+1. Open VS code
+2. Press ctrl + p to open command palette
+3. Paste this ```ext install PabloRivera.react-snippets-extension```
 
-## Usage
+### Available Commands
 
-Once the extension is installed, you can use the snippets by typing the prefix associated with each snippet in your code files. The available snippets are defined in the following files:
+After installing the extension, you can use the following snippet prefixes in your code editor:
 
-- `snippets/react-ts.json` for TypeScript files
-- `snippets/react-tsx.json` for TSX files
-- `snippets/react-js.json` for JavaScript files
-- `snippets/react-jsx.json` for JSX files
+- **rfc**: Create a React functional component.
+- **usest**: Insert a useState hook template.
+- **useef**: Insert a useEffect hook template.
+- **usecb**: Insert a useCallback hook template.
+- **usem**: Insert a useMemo hook template.
+- **rhook**: Add PropTypes to a component.
+
+Type any of these prefixes in a supported file and select the snippet from the suggestions to quickly scaffold React code.
 
 ## Contributing
 

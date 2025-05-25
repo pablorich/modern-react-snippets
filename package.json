@@ -3,7 +3,7 @@
   "displayName": "React Snippets Extension",
   "description": "A collection of React code snippets for TypeScript, TSX, JavaScript, and JSX files.",
   "version": "1.0.0",
-  "publisher": "pablorich",
+  "publisher": "pablorivera",
   "engines": {
     "vscode": "^1.50.0"
   },
@@ -15,6 +15,7 @@
     "url": "https://github.com/pablorich/modern-react-snippets.git"
   },
   "extensionEntrypoint": "./dist/extension.js",
+  "license": "MIT",
   "contributes": {
     "snippets": [
       {
@@ -40,13 +41,13 @@
     "snippets/",
     "package.json",
     "README.md",
-    "CHANGELOG.md"
+    "LICENSE"
   ],
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./tsconfig.json",
     "watch": "tsc -watch -p ./tsconfig.json",
-    "postinstall": "node ./out/extension.js"
+    "postinstall": "node ./dist/extension.js"
   },
   "devDependencies": {
     "typescript": "^4.0.0",

@@ -53,5 +53,15 @@
       "export default use${1:CustomHook};"
     ],
     "description": "Create a custom React hook"
+  },
+  "react-use-memo": {
+    "prefix": "usem",
+    "body": [
+      "const ${1:memorizedValue} = useMemo(() => {",
+      "  ${2:// Compute value here}",
+      "  return ${3:value};",
+      "}, [${4:dependencies}]);"
+    ],
+    "description": "Create useMemo"
   }
 }
