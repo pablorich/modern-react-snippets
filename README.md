@@ -22,7 +22,7 @@ Snippets:
 - **useef**: Insert a useEffect hook template.
 - **usecb**: Insert a useCallback hook template.
 - **usem**: Insert a useMemo hook template.
-- **rhook**: Add PropTypes to a component.
+- **rhook**: Insert a react hook template.
 
 Commands (ctrl + shift + p) and code actions (ctrl + . ) on text selection:
 
