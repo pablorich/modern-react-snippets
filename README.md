@@ -15,7 +15,7 @@ This extension provides a collection of useful React code snippets for developer
 
 ### Available Commands
 
-After installing the extension, you can use the following snippet prefixes in your code editor:
+Snippets:
 
 - **rfc**: Create a React functional component.
 - **usest**: Insert a useState hook template.
@@ -23,6 +23,12 @@ After installing the extension, you can use the following snippet prefixes in yo
 - **usecb**: Insert a useCallback hook template.
 - **usem**: Insert a useMemo hook template.
 - **rhook**: Add PropTypes to a component.
+
+Commands (ctrl + shift + p) and code actions (ctrl + . ) on text selection:
+
+- **Wrap with useCallback**
+- **Wrap with useEffect**
+- **Wrap with useMemo**
 
 Type any of these prefixes in a supported file and select the snippet from the suggestions to quickly scaffold React code.
 

@@ -2,7 +2,7 @@
   "name": "react-snippets-extension",
   "displayName": "Modern React Snippets Extension",
   "description": "A collection of modern React code snippets for TypeScript, TSX, JavaScript, and JSX files.",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "publisher": "pablorivera",
   "engines": {
     "vscode": "^1.50.0"
@@ -33,6 +33,37 @@
       {
         "language": "javascriptreact",
         "path": "./snippets/react-jsx.json"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorHasSelection && (resourceLangId == typescript || resourceLangId == typescriptreact || resourceLangId == javascript || resourceLangId == javascriptreact)",
+          "submenu": "modern-react-snippets.refactorings"
+        }
+      ]
+    },
+    "submenus": [
+      {
+        "id": "modern-react-snippets.refactorings",
+        "label": "React Hook Refactorings"
+      }
+    ],
+    "commands": [
+      {
+        "command": "modern-react-snippets.wrapWithUseCallback",
+        "title": "Wrap with useCallback",
+        "category": "Modern React Snippets"
+      },
+      {
+        "command": "modern-react-snippets.wrapWithUseMemo",
+        "title": "Wrap with useMemo",
+        "category": "Modern React Snippets"
+      },
+      {
+        "command": "modern-react-snippets.wrapWithUseEffect",
+        "title": "Wrap with useEffect",
+        "category": "Modern React Snippets"
       }
     ]
   },
